@@ -1,0 +1,11 @@
+((delay(?wf1 VT("/Vin") ?value1 0.6 ?edge1 "rising" ?nth1 8 ?td1 0.0 ?wf2 VT("/Vinv") ?value2 0.6 ?edge2 "falling" ?nth2 8 ?td2 nil ?stop nil ?multiple nil) + delay(?wf1 VT("/Vin") ?value1 0.6 ?edge1 "falling" ?nth1 8 ?td1 0.0 ?wf2 VT("/Vinv") ?value2 0.6 ?edge2 "rising" ?nth2 8 ?td2 nil ?stop nil ?multiple nil)) / 2) X,((delay(?wf1 VT("/Vin") ?value1 0.6 ?edge1 "rising" ?nth1 8 ?td1 0.0 ?wf2 VT("/Vinv") ?value2 0.6 ?edge2 "falling" ?nth2 8 ?td2 nil ?stop nil ?multiple nil) + delay(?wf1 VT("/Vin") ?value1 0.6 ?edge1 "falling" ?nth1 8 ?td1 0.0 ?wf2 VT("/Vinv") ?value2 0.6 ?edge2 "rising" ?nth2 8 ?td2 nil ?stop nil ?multiple nil)) / 2) Y
+1,1.035201612281336e-11
+2,1.452204910566669e-11
+3,1.873167678862764e-11
+4,2.300064217212581e-11
+5,2.728533453295503e-11
+6,3.150449358382379e-11
+7,3.585256926890066e-11
+8,4.019357734992328e-11
+9,4.441850293879371e-11
+10,4.864582654119397e-11
